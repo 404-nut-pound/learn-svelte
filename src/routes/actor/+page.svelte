@@ -1,9 +1,9 @@
 <script lang="ts">
-  const data: string[] = []
+  export let data: any
 </script>
 
 <ul>
-  {#each data as actor}
+  {#each data.actorList as actor}
     <li>{actor}</li>
   {/each}
 </ul>
