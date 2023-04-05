@@ -2,7 +2,7 @@
   import Movie from './movie.svelte'
 
   let name = 'World'
-  let movieList = ['A', 'BB', 'CCC', 'DDDD']
+  let movieList = ['몬티 파이튼의 성배', '아이언 맨', '올드보이']
 </script>
 
 <h1>Hello {name}!</h1>
